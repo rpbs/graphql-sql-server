@@ -1,2 +1,1 @@
-# graphql-sql-server
-Just for testing
+# GraphqlSQLServer
