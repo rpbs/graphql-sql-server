@@ -1,6 +1,5 @@
-﻿namespace GraphqlSQLServer.Repositories
+﻿namespace GraphqlSQLServer.Repositories;
+
+public interface ICarRepository
 {
-    public interface ICarRepository
-    {
-    }
 }

@@ -1,6 +1,5 @@
-﻿namespace GraphqlSQLServer.Repositories
+﻿namespace GraphqlSQLServer.Repositories;
+
+public interface IBrandRepository
 {
-    public interface IBrandRepository
-    {
-    }
 }

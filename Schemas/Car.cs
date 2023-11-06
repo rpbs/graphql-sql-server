@@ -1,6 +1,5 @@
-﻿namespace GraphqlSQLServer.Schemas
+﻿namespace GraphqlSQLServer.Schemas;
+
+public class Car
 {
-    public class Car
-    {
-    }
 }
