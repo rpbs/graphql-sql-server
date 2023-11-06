@@ -2,4 +2,5 @@
 
 public interface IBrandRepository
 {
+    Task<int> AddBrand();
 }
