@@ -5,6 +5,6 @@ namespace GraphqlSQLServer.Interfaces;
 public interface IBrandRepository
 {
     Task<int> AddBrand();
-    Task<List<Brand>> GetCars();
+    Task<List<Brand>> GetBrands();
 
 }

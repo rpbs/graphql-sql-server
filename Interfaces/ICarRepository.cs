@@ -6,4 +6,5 @@ public interface ICarRepository
 {
     Task<List<Car>> GetCars();
     Task<int> AddCar();
+    Task<Car> GetById(int v);
 }
