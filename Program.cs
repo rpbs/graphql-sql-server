@@ -21,7 +21,7 @@ builder.Services.AddTransient<BrandType>();
 
 builder.Services.AddTransient<RootQuery>();
 builder.Services.AddTransient<CarQuery>();
-//builder.Services.AddTransient<BrandQuery>();
+builder.Services.AddTransient<BrandQuery>();
 
 
 builder.Services.AddTransient<ISchema, RootSchema>();

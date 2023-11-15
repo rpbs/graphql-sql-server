@@ -7,6 +7,7 @@ namespace GraphqlSQLServer.Queries
         public RootQuery() 
         {
             Field<CarQuery>("carQuery").Resolve(context => new { });
+            Field<BrandQuery>("brandQuery").Resolve(context => new { });
         }
     }
 }
