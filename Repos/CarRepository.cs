@@ -20,12 +20,12 @@ namespace GraphqlSQLServer.Repos
 
         public Task<Car> GetById(int id)
         {
-            return this.dbContext.Cars.FirstOrDefaultAsync(x => x.Id == id);
+            return this.dbContext.Cars.Include(x => x.Brand).FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public Task<List<Car>> GetCars()
         {
-            return this.dbContext.Cars.ToListAsync();
+            return this.dbContext.Cars.Include(x => x.Brand).ToListAsync();
         }
     }
 }

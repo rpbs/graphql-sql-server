@@ -7,7 +7,7 @@ namespace GraphqlSQLServer.Queries
 {
     public class CarQuery : ObjectGraphType
     {
-        public CarQuery(ICarRepository carRepository)
+        public CarQuery(ICarRepository carRepository, IBrandRepository brandRepository)
         {
             Field<ListGraphType<CarType>>("cars").ResolveAsync(async context =>
             {
