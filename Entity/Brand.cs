@@ -6,7 +6,7 @@ namespace GraphqlSQLServer.Entity
     {
         [Key]
         public int Id { get; set; }
-        public int Name { get; set; }
-        public int Country { get; set; }
+        public string Name { get; set; }
+        public string Country { get; set; }
     }
 }
